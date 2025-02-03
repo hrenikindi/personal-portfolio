@@ -1,5 +1,5 @@
 import axios from "axios";
-import { aboutMe, itemsToFetch, includedRepos } from "../constants";
+import { aboutMe} from "../constants";
 
 export const scrollToSection = (id) => {
   const element = document.getElementById(id);
@@ -10,10 +10,7 @@ export const scrollToSection = (id) => {
 };
 
 const parseOriginFromUrl = (url) => {
-  /**
-   * splits https://github.com/repos/org-name/repo-name/issues/25
-   * into [ "github.com", "repos", "org-name", "repo-name", "issues", "25"]
-   */
+
   const [, ...parts] = url.split(/https:\/\/|\//gm);
   const organization = parts[1];
   const repo = parts[2];

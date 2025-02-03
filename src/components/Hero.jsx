@@ -39,7 +39,10 @@ const Hero = () => {
         <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[80px] leading-[80px] w-full">
           <span className="text-gradient">{aboutMe.name}</span>
         </h1>
-        <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
+        <h1 className="font-poppins font-semibold  text-gradient text-[30px] w-full">
+          <span>{aboutMe.contact}</span>
+        </h1>
+        <p className={`${styles.paragraph} max-w-[470px] mt-5 text-justify`}>
           {aboutMe.intro}
         </p>
       </div>
