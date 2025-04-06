@@ -57,7 +57,7 @@ import {
 
 import { DiCss3, DiJava, DiMsqlServer} from "react-icons/di";
 
-export const resumeLink = "https://drive.google.com/file/d/1LcrlpQ0ylomkwbKHMKgYB-xxpDPk_Q_U/view?usp=sharing";
+export const resumeLink = "https://drive.google.com/file/d/1Sa2Jh63Hp1O0terZYAX43hQNSRTPH4tn/view?usp=drive_link";
 
 export const callToAction = "https://www.linkedin.com/in/harshith-renikindi-2b92871bb";
 
