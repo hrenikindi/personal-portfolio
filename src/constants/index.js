@@ -302,7 +302,7 @@ export const projects = [
   {
     id: "project-4",
     title: "Ecommerce Website using MERN Stack",
-    github: "https://github.com/hrenikindi/ecommerce",
+    github: "https://github.com/hrenikindi/ecommerce/tree/final",
     image: eshop,
     content:
       "Created Ecommerce website using the MERN stack which helped me to learn about the MERN in-depth, and used github to learn about the version control in-depth.",
